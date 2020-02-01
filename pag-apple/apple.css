@@ -1,0 +1,623 @@
+﻿*{
+	font-family: 'San Francisco', Helvetica, Arial, san-serif;
+}
+
+body{
+	margin: 0;
+	font-size: 20px;
+}
+/*el menu to guapo*/
+nav {
+    margin: 0 auto; 
+    text-align: left;
+    width: 100%;
+	background-color: black;
+	opacity: .7;
+	text-align: center;
+}
+
+ul#menu  {
+	list-style-type: none;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	background-color: black ;
+	font-size: 0.7em;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+ul#menu li {
+	display: inline-block;
+	padding: 0 40px; 
+
+}
+
+ul#menu li a {
+	display: block;
+	color: 	#AAAAAA;
+	text-align: center;
+	text-decoration: none;
+}
+
+ul#menu li:hover a {
+	color: white;
+}
+
+
+ul#menu li.logo {
+	background-image: url(img/icononegro.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 25px;
+	height: 15px;
+	background-position: 0% 140%;
+	padding: 5px;
+	margin-right: 30px;
+
+}
+
+ul#menu li.logo:hover {
+	background-image: url(img/iconoblanco.png);
+}
+
+ul#menu li.lupa {
+	background-image: url(img/lupa_mac.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 25px;
+	height: 15px;
+	background-position: 0% 150%;
+	padding: 5px;
+	margin-left: 20px;
+
+}
+
+ul#menu li.lupa:hover {
+	background-image: url(img/lupa_macblanca.png);
+}
+
+ul#menu li.bolsa {
+	background-image: url(img/cesta.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 25px;
+	height: 15px;
+	background-position: 0% 150%;
+	padding: 5px;
+	margin-left: 30px;
+
+}
+
+ul#menu li.bolsa:hover {
+	background-image: url(img/cesta_white.png);
+}
+
+/*las dos primeras partes*/
+/*la primera*/
+div#primera {
+	background-image: url(img/uno.png);
+	width: 100%;
+	height: 670px;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: 50% 100%;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+div#primera #iphone h1 {
+	padding-top: 100px;
+	margin: 0;
+	font-size: 2.5em;
+}
+
+div#primera #iphone h2 {
+	margin: 2px;
+	font-size: 1.2em;
+}
+
+div#primera #iphone > .preciov {
+	margin: 7px;
+	font-size: 0.8em;
+	color: #AAAAAA;
+}
+
+div#primera div .colorazul a {
+	padding-top: 5px;
+    margin: 7px;
+    color: #2082E7;
+    text-decoration: none;
+}
+
+div#primera div.colorazul {
+	padding-top: 5px;
+	margin: 7px;
+	color: #2082E7;
+	text-decoration: none;
+}
+
+div#primera #iphone > div a:hover{
+	color: #2082E7;
+	text-decoration: underline;
+}
+
+
+/*segunda*/
+div.segunda {
+	margin-top: 10px;
+	background-image: url(img/dos.png);
+	width: 100%;
+	height: 670px;
+	background-repeat: no-repeat;
+	background-color: #FAFAFA;
+	background-position: 55% 100%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.segunda .iphone11 h1 {
+	padding-top: 50px;
+	margin: 0;
+	font-size: 2.5em;
+}
+
+div.segunda .iphone11 h2 {
+	margin: 2px;
+	font-size: 1.2em;
+}
+
+div.segunda .iphone11 > .preciov {
+	margin: 7px;
+	font-size: 0.8em;
+	color: #909090;
+}
+
+div.segunda div.colorazul a {
+	padding-top: 5px;
+	color: #2082E7;
+	text-decoration: none;
+	font-size: 0.9em;
+
+}
+
+div.segunda div.colorazul {
+	padding-top: 5px;
+	margin: 7px;
+	color: #2082E7;
+	text-decoration: none;
+
+}
+
+div.segunda .iphone11 > div a:hover {
+	color: #2082E7;
+	text-decoration: underline;
+
+}
+
+/*tercera*/
+div.tercera {
+	margin-top: 10px;
+	background-image: url(img/tres.png);
+	width: 100%;
+	height: 670px;
+	background-repeat: no-repeat;
+	background-color: #FAFAFA;
+	background-position: 55% 100%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.tercera .watch h2 {
+	padding-top: 130px;
+	margin: 2px;
+	font-size: 1.2em;
+	color: #6F746E;
+}
+
+div.tercera div.colorazul a {
+	padding-top: 5px;
+	color: #2082E7;
+	text-decoration: none;
+	font-size: 0.9em;
+
+}
+
+div.tercera div.colorazul {
+	padding-top: 5px;
+	margin: 7px;
+	color: #2082E7;
+	text-decoration: none;
+
+}
+
+div.tercera .watch > div a:hover {
+	color: #2082E7;
+	text-decoration: underline;
+
+}
+
+/*menu dos lados*/
+div.cuarta{
+	background: url(img/watch.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 4px;
+	width: 49%;
+	height: 520px;
+	background-color: #161618;
+	background-position: 50% 35%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.cuarta .watchs h1{
+	padding-top: 100px;
+	margin: 0;
+	font-size: 2.5em;
+}
+
+div.cuarta .watchs h2{
+	margin: 2px;
+	font-size: 1em;
+	color: #AAAAAA;
+}
+
+div.cuarta div.colorazul a{
+	padding-top: 5px;
+	color: #2082E7;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+div.cuarta div.colorazul {
+	padding-top: 5px;
+	margin: 7px;
+	color: #2082E7;
+	text-decoration: none;
+}
+
+div.cuarta .watchs > div a:hover{
+	color: #2082E7;
+	text-decoration: underline;
+}
+
+/*quinta*/
+div.quinta{
+	float: right;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-right: 5px;
+	background-image: url(img/cowboy.jpg);
+	width: 49%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-color: #161618;
+	background-position: 50% 35%;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+.imag{
+	background-image: url(img/little.png);
+	width: 340px;
+    height: 64px;
+    background-size: 340px 64px;
+    background-repeat: no-repeat;
+}
+
+.imag{
+	background-image: url(img/little.png);
+	width: 441px;
+    height: 72px;
+    background-size: 441px 72px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.play a{
+	padding-bottom: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+.play {
+	padding-top: 5px;
+	margin: 7px;
+	color: white;
+	text-decoration: none;
+}
+
+div.quinta > div a:hover{
+	color: #2082E7;
+	text-decoration: underline; 
+}
+
+/*sexta*/
+
+div.sexta{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 4px;
+	background-image: url(img/seis.png);
+	width: 49%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-color: #FAFAFA;
+	background-position: 50% 100%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.sexta .airpods h1{
+	padding-top: 50px;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+div.sexta .airpods h2{
+	margin: 5px;
+	font-size: 0.9em;
+	color: #4A4446;
+}
+
+div.sexta div.colorazul a{
+	padding-top: 5px;
+	color: #2082E7;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+div.sexta .airpods > div a:hover{
+	color: #2082E7;
+	text-decoration: underline;
+}
+
+/*septima*/
+div.septima {
+    background-image: url(img/siete.png);
+    float: right;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-right: 5px;
+	width: 49%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-color: #FAFAFA;
+	background-position: 50% 100%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.septima .macbook h1 .mac {
+	padding-top: 200px;
+	margin: 0;
+	font-size: 3.5em;
+}
+
+div.septima .macbook h2 {
+	margin: 2px;
+	font-size: 0.9em;
+	color: #4A4446;
+}
+
+div.septima div.colorazul a {
+	padding-top: 5px;
+	color: #2082E7;
+	text-decoration: none;
+	font-size: 0.9em;
+
+}
+
+div.septima div.colorazul {
+	padding-top: 5px;
+	margin: 7px;
+	color: #2082E7;
+	text-decoration: none;
+
+}
+
+div.septima .macbook > div a:hover {
+	color: #2082E7;
+	text-decoration: underline;
+
+}
+
+/*octava*/
+
+div.octava {
+    background-image: url(img/arca.jpg);
+    float: left;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-right: 5px;
+	width: 49%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-color: #FAFAFA;
+	background-position: 60% 110%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.octava .arcade h2 {
+	margin: 2px;
+	font-size: 0.9em;
+	color: white;
+}
+
+div.octava div.colorblanco a {
+	padding-top: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 0.9em;
+
+}
+
+div.octava div.colorblanco {
+	padding-top: 5px;
+	margin: 7px;
+	color: white;
+	text-decoration: none;
+
+}
+
+div.octava .arcade > div a:hover {
+	color: white;
+	text-decoration: underline;
+
+}
+
+/*novena*/
+
+div.novena {
+    background-image: url(img/nueve.png);
+    float: right;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-right: 5px;
+	width: 49%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-color: #FAFAFA;
+	background-position: 50% 100%;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+div.novena .nueva h2 {
+	margin: 2px;
+	font-size: 0.9em;
+	color: white;
+	padding-bottom: 5px;
+}
+
+div.novena div.colorazul a {
+	padding-top: 5px;
+	color: #2082E7;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+div.novena div.colorazul {
+	padding-top: 5px;
+	margin: 7px;
+	color: #2082E7;
+	text-decoration: none;
+
+}
+
+div.novena .nuevo > div a:hover {
+	color: #2082E7;
+	text-decoration: underline;
+
+}
+
+
+
+/*footer*/
+footer{
+    background-color: #F5F5F7;
+}
+
+/*parrafo*/
+.cuadro{
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    color: #9E9EA2;
+    font-size: 12px;
+}
+.cuadro p{
+    padding-top: 10px;
+    line-height : 20px;
+
+}
+
+.cuadro p a{
+    text-decoration: none;
+    color: #58585B;
+
+}
+.cuadro hr{
+    color: rgba(155,155,155,0.15);
+}
+
+
+/*listas*/
+.lista{
+    display: inline-block;
+    width: 19.7%;
+    padding-top: 0px;
+    vertical-align: top;
+    color: black;
+    font-weight: bold;
+}
+.lista li{
+    list-style: none;
+    padding-top: 10px;
+    color: dimgrey;
+    font-weight: normal;
+}
+.lista li a{
+    text-decoration: none;
+    color: #ABABAE;
+}
+
+.lista li a:hover{
+    text-decoration: underline;
+    color: #ABABAE;
+}
+.lista ul{
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+.lista a{
+    color: #0066CC;
+}
+.lista hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*footer final*/
+.gionfooter{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.enlacesfooterfin{
+
+    text-decoration: none;
+    color: #5E5E60;
+}
+#copyright{
+    display: inline-block;
+}
+#bandera{
+    float: right;
+}
+
+#bandera img{
+  	padding-top: 10px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.enlacesfootercopyright{
+    color: #0066CC;
+    text-decoration: none;
+}
